@@ -1,5 +1,5 @@
 # Slim 3 Controller Strategy
-> This package helps you to change the way Slim 3 load your project controllers, its kind of boring bind every controller into Slim\Container for later behind scenes Slim determine the Controller and Method, with this package you can write your rules to determine which controller and method the router is looking for.
+> This package will help you to change the way Slim 3 loads your project controllers, it’s a little boring to bind every each controller into Slim\Container to make it after behind scenes Slim determine the Controller and Method, with this package you can write your own rules to determine which controller and method that the router is looking for.
 
 ## Installation
 ```bash
@@ -18,7 +18,7 @@ class MyControllerSolver implements ControllerSolver
 {
     public function solve($toResolve)
     {
-        // Here goes the code to find and make new instance of class (this is just an example, you must build your logic)
+        // Here we have the code to find and make new instance of class (this is just an example, you must build your logic)
         $explode = explode("@", $toResolve);
         
         // You must return an array like: [$instanceOfController, $methodName];
