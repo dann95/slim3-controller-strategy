@@ -1,0 +1,20 @@
+{
+    "name": "dann95/slim3-controller-strategy",
+    "description": "Customize the way Slim3 loads controllers with your rules",
+    "type": "package",
+    "require": {
+        "slim/slim": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Rubin",
+            "email": "danielrubin95@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dann95\\SlimController\\": "src"
+        }
+    }
+}
