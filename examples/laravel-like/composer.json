@@ -1,0 +1,13 @@
+{
+    "name": "dann/laravel-like",
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "^3.0",
+        "dann95/slim3-controller-strategy": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
