@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Dann95\SlimController;
+namespace Dann95\SlimController\Hooks;
 
 use Slim\Interfaces\CallableResolverInterface;
 use Dann95\SlimController\Contracts\ControllerSolver;

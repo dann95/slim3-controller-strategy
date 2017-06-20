@@ -5,7 +5,7 @@ namespace Dann95\SlimController;
 
 use Slim\Container as SlimContainer;
 use Dann95\SlimController\Contracts\ControllerSolver;
-use Dann95\SlimController\CallableResolver;
+use Dann95\SlimController\Hooks\CallableResolver;
 
 class Container extends SlimContainer
 {
